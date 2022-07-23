@@ -29,7 +29,7 @@
             <p style="white-space: nowrap; overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{product.title}}</p>
             <p style="white-space: nowrap; overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{product.description}}</p>
             <p><strong>${{product.price}}</strong></p>
-            <button class="btn btn-primary">Add to cart</button>
+            <button class="btn btn-primary"(click)="addtocart(product)">Add to cart</button>
           </div>
 
         </ng-container>
